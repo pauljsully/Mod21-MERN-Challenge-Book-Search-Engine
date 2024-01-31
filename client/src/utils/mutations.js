@@ -9,7 +9,9 @@ export const LOGIN_USER = gql`
         username
       }
     }
-  }`;
+  }
+`;
+
 
 export const ADD_USER = gql`
   mutation addUser($username: String!, $email: String!, $password: String!) {
@@ -30,7 +32,8 @@ export const ADD_USER = gql`
         }
       }
     }
-  }`;
+  }
+`;
 
 export const SAVE_BOOK = gql`
   mutation saveBook($newBook: InputBook!) {
@@ -39,10 +42,10 @@ export const SAVE_BOOK = gql`
       username
       email
       savedBooks {
-        authors
         bookId
-        title
+        authors
         description
+        title
         image
         link
       }
@@ -65,4 +68,5 @@ export const REMOVE_BOOK = gql`
         link
       }
     }
-  }`;
+  }
+`;
