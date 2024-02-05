@@ -66,13 +66,13 @@ npm run dev
  "http://localhost:3001"
 
 5. To just view the product, click on the deployed link:
-""
+"https://bookcollector.onrender.com"
 
 
 ## Usage
 
 GITHUB link: (https://github.com/pauljsully/Mod21-MERN-Challenge-Book-Search-Engine.git)
-DEPLOYED Link: ()
+DEPLOYED Link: (https://bookcollector.onrender.com)
 
 ## License
 
